@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dossard — aide et support</title>
+<meta name="description" content="Aide, questions fréquentes et contact pour l’application iPhone Dossard, le carnet de courses qui reste sur votre téléphone.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="mark">65</div>
+  <div>
+    <h1>Dossard</h1>
+    <p>Le carnet de courses qui reste sur votre iPhone</p>
+  </div>
+</header>
+
+<nav>
+  <a href="index.html" aria-current="page">Aide</a>
+  <a href="confidentialite.html">Confidentialité</a>
+  <a href="privacy.html">Privacy (EN)</a>
+</nav>
+
+<p class="lede">Vous repérez une course dans Safari, sur un réseau social, sur
+une affiche ou dans un message. Dossard en fait une fiche vérifiable, la garde
+hors ligne sur votre iPhone, et vous laisse la partager avec vos proches. Sans
+compte, sans serveur, sans publicité.</p>
+
+<h2>Prise en main</h2>
+
+<h3>Ajouter une course</h3>
+
+<p>Trois chemins, tous accessibles par le bouton <strong>+</strong> :</p>
+
+<ul>
+  <li><strong>Depuis un lien.</strong> Dans Safari, touchez Partager puis
+      « Ajouter à Dossard ». La page est téléchargée et analysée sur votre
+      iPhone, et une fiche pré-remplie vous est proposée.</li>
+  <li><strong>Depuis une affiche ou une capture d’écran.</strong> Le texte est
+      reconnu sur l’appareil. Les affiches sont souvent imparfaites : vérifiez
+      la date et la distance avant d’enregistrer.</li>
+  <li><strong>À la main.</strong> Seul le nom est nécessaire pour commencer.
+      Tout le reste peut attendre.</li>
+</ul>
+
+<h3>Dire ce que vous comptez faire</h3>
+
+<p>Chaque course porte une <em>intention</em> : intéressé, peut-être, inscrite.
+C’est un choix personnel, distinct des informations publiques de la course, et
+il n’est partagé que si vous le décidez.</p>
+
+<h3>Partager avec vos proches</h3>
+
+<p>Une course ou une liste s’envoie sous forme de fichier, par Messages, AirDrop,
+Mail ou Fichiers. La personne qui le reçoit l’ouvre dans Dossard et décide
+elle-même de ce qu’elle garde. Il n’y a aucune synchronisation automatique :
+rien ne part sans que vous l’envoyiez. <strong>Vos notes privées ne sont jamais
+incluses.</strong></p>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Faut-il créer un compte ?</h3>
+<p>Non. Dossard n’a ni compte, ni mot de passe, ni adresse à fournir.</p>
+
+<h3>L’application fonctionne-t-elle sans connexion ?</h3>
+<p>Oui. Une fois enregistrée, une fiche reste lisible, modifiable, consultable et
+partageable sans réseau. Le réseau ne sert qu’à analyser une page au moment où
+vous le demandez.</p>
+
+<h3>Mes courses sont-elles synchronisées entre mes appareils ?</h3>
+<p>Non, et c’est délibéré. Il n’existe aucun serveur Dossard. Pour transférer
+votre carnet, partagez-le sous forme de fichier et importez-le sur l’autre
+appareil.</p>
+
+<h3>Que se passe-t-il si je désinstalle l’application ?</h3>
+<p>Toutes vos données sont supprimées de l’iPhone avec elle. Exportez d’abord vos
+courses si vous voulez les conserver.</p>
+
+<h3>Pourquoi l’application me demande-t-elle ma position ?</h3>
+<p>Uniquement pour afficher, sur l’écran Carte, la distance entre vous et une
+course. Le calcul se fait sur l’appareil et la position n’est ni enregistrée, ni
+transmise. Si vous refusez, la carte fonctionne, seule la distance disparaît.</p>
+
+<h3>Qu’est-ce que la « clé API Gemini » dans les Réglages ?</h3>
+<p>Une fonction facultative, désactivée par défaut, qui permet de chercher une
+course à partir d’une simple description. Elle nécessite une clé que vous créez
+vous-même chez Google. <strong>Vous n’en avez pas besoin :</strong> sans clé,
+l’application est entièrement utilisable. C’est le seul endroit où Dossard
+s’adresse à un service payant, et c’est votre décision, pas la sienne.</p>
+
+<h3>Une date ou une distance est fausse après un import</h3>
+<p>C’est possible : les pages de course sont très diverses. Dossard vous montre
+toujours la fiche avant de l’enregistrer, précisément pour que vous puissiez
+corriger. Chaque champ reste modifiable ensuite.</p>
+
+<h3>Une page n’a pas pu être analysée</h3>
+<p>Certains sites bloquent la lecture automatique ou construisent leur contenu
+d’une manière que Dossard ne sait pas lire. Dans ce cas l’application conserve le
+lien et ouvre une fiche à compléter à la main. Vous pouvez aussi faire une
+capture d’écran de la page et l’importer comme une affiche.</p>
+
+<h3>L’application est-elle payante ?</h3>
+<p>Non. Dossard est gratuit, sans achat intégré, sans abonnement et sans
+publicité.</p>
+
+<h2 id="robot">Aux personnes qui administrent un site de course</h2>
+
+<p>Si vous voyez passer dans vos journaux un agent utilisateur commençant par
+<code>Dossard/</code>, voici ce dont il s’agit.</p>
+
+<p>Dossard est une application iPhone. Quand une personne lui donne l’adresse de
+votre page de course, <strong>son téléphone télécharge cette page directement</strong>,
+une fois, au moment où elle le demande. Il n’y a ni serveur intermédiaire, ni
+robot d’indexation, ni exploration programmée, ni collecte à intervalle
+régulier.</p>
+
+<ul>
+  <li>Une requête correspond toujours à une action humaine immédiate.</li>
+  <li>Si une information essentielle manque, l’application peut suivre un lien
+      que <em>votre page</em> désigne — typiquement « Parcours » ou
+      « Inscriptions ». Ces visites-là respectent votre
+      <code>robots.txt</code>.</li>
+  <li>Le contenu est analysé sur l’appareil et n’est jamais conservé
+      intégralement, ni republié.</li>
+  <li>Les requêtes n’utilisent ni cookies, ni cache, ni identifiants, et sont
+      soumises à des limites strictes de taille et de durée.</li>
+</ul>
+
+<p>Si vous souhaitez que l’application n’aille pas au-delà de la page que la
+personne a fournie, un <code>robots.txt</code> restrictif suffit : il est
+respecté. Pour toute question ou demande,
+<a href="mailto:contactdossard@gmail.com">écrivez-nous</a>.</p>
+
+<h2>Nous écrire</h2>
+
+<p>Une question, un bug, une idée :
+<a href="mailto:contactdossard@gmail.com">contactdossard@gmail.com</a></p>
+
+<p>Dossard est développé par un particulier, sur son temps libre. Les réponses
+peuvent prendre quelques jours. Si vous signalez un problème d’import, l’adresse
+de la page concernée aide beaucoup.</p>
+
+<footer>
+  <p>Dossard — application gratuite pour iPhone, sans compte et sans publicité.<br>
+  <a href="confidentialite.html">Politique de confidentialité</a> ·
+  <a href="privacy.html">Privacy policy in English</a><br>
+  Données de lieu © les contributeurs OpenStreetMap.</p>
+</footer>
+
+</div>
+</body>
+</html>
